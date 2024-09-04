@@ -48,7 +48,7 @@ To use the Azure Storage Browser, [enable Static Website hosting](https://docs.m
 
 4. **Define a CORS Rule**  
    - Add a CORS (Cross-Origin Resource Sharing) rule with the following settings:
-     - **Allowed Origins:** Add URL of your origin. It must me something similar to "https://storage_name.aleatory.web.core.windows.net"
+     - **Allowed Origins:** Add URL of your origin. In this example case, it must be 'https://azdirbrowser.z5.web.core.windows.net'
      - **Allowed Methods:** `GET`, `HEAD`, `OPTIONS`
      - **Allowed Headers:** `*`
      - **Exposed Headers:** `x-ms-*`
